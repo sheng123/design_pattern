@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8a3327-ffdb-4a7d-b807-c0fd4fd6eee7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/StaticStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/dynamicProxy/DynamicProxyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/dynamicProxy/SimpleDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/reflect/ShowMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/StaticStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/StaticStateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sheng/proxy/staticState/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sheng/proxy/staticState/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sheng/proxy/staticState/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sheng/proxy/staticState/StaticStateTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +26,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Person.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicProxyHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/dynamicProxy/DynamicProxyHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleDynamicProxy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/dynamicProxy/SimpleDynamicProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,6 +103,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Son.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Father.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/StaticStateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sheng/reflect/ShowMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sheng/proxy/dynamicProxy/SimpleDynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sheng/proxy/dynamicProxy/DynamicProxyHandler.java" />
       </list>
     </option>
   </component>
@@ -88,10 +127,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-144" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -103,8 +140,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,13 +193,45 @@
               <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sheng" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sheng" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sheng" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="staticProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,29 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticStateTest">
-    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sheng.factory.abstr.AbstractFactoryTest" />
-      <module name="design_pattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sheng.factory.abstr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sheng.factory.function.FactoryTest" />
-      <module name="design_pattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sheng.factory.function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.SimpleDynamicProxy">
     <configuration name="PrototypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sheng.prototype.PrototypeTest" />
       <module name="design_pattern" />
@@ -219,6 +266,29 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sheng.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ShowMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sheng.reflect.ShowMethods" />
+      <module name="design_pattern" />
+      <option name="PROGRAM_PARAMETERS" value="com.sheng.reflect.ShowMethods" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sheng.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SimpleDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sheng.proxy.dynamicProxy.SimpleDynamicProxy" />
+      <module name="design_pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sheng.proxy.dynamicProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +305,12 @@
       </extension>
     </configuration>
     <configuration name="StaticStateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sheng.proxy.staticState.StaticStateTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sheng.proxy.staticProxy.StaticStateTest" />
       <module name="design_pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sheng.proxy.staticState.*" />
+          <option name="PATTERN" value="com.sheng.proxy.staticProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,19 +357,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FactoryTest" />
-      <item itemvalue="Application.AbstractFactoryTest" />
       <item itemvalue="Application.SingletonTest" />
       <item itemvalue="Application.PrototypeTest" />
       <item itemvalue="Application.StaticStateTest" />
+      <item itemvalue="Application.ShowMethods" />
+      <item itemvalue="Application.SimpleDynamicProxy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleDynamicProxy" />
+        <item itemvalue="Application.ShowMethods" />
         <item itemvalue="Application.StaticStateTest" />
         <item itemvalue="Application.PrototypeTest" />
         <item itemvalue="Application.SingletonTest" />
-        <item itemvalue="Application.AbstractFactoryTest" />
-        <item itemvalue="Application.FactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -322,15 +392,16 @@
       <workItem from="1542426765833" duration="3917000" />
       <workItem from="1542680051809" duration="236000" />
       <workItem from="1542696302190" duration="416000" />
-      <workItem from="1542865978815" duration="859000" />
+      <workItem from="1542865978815" duration="1347000" />
+      <workItem from="1543031926755" duration="4937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13734000" />
+    <option name="totallyTimeSpent" value="19159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-144" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -342,18 +413,18 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32892057" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40274313" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49750623" visible="true" weight="0.15069222" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49750623" weight="0.2932761" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50249374" side_tool="true" weight="0.19670959" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39775562" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,41 +442,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/prototype/PrototypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/prototype/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/prototype/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,9 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,9 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,9 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,9 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,9 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,7 +754,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Son.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/Son.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
@@ -739,24 +765,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/StaticStateTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/StaticStateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Father.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/Father.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticState/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/reflect/ShowMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/staticProxy/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/dynamicProxy/DynamicProxyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/proxy/dynamicProxy/SimpleDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
